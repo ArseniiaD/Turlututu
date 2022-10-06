@@ -1,3 +1,131 @@
+@media screen and (max-width:662px) {
+  body {
+    font-size: 90%;
+  }
+  .nav {
+    padding: 0;
+  }
+  .tur {
+    display: none;
+  }
+  .nav ul {
+    display: inline;
+    padding: 0;
+    column-count: 4;
+ }
+ .nav ul li {
+  padding-left: 0;
+ }
+ nav div.login {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+  div.articles {
+    padding: 0;
+    flex-direction: column;
+ }
+.first-part .content p{
+padding: 0;
+margin: 0;
+}
+div.image {
+  padding: 0;
+  display: block;
+  margin: auto;
+ }
+div.first-part {
+  flex-direction: column;
+  padding: 0 0 10px 0;
+}
+div.logos {
+padding: 0;
+}
+div.logos img{
+  padding: 0;
+  }
+div.logo {
+  display: none; 
+}
+.year {
+  display: none; 
+}
+}
+@media screen and (min-width:663px) and (max-width:992px) {
+body {
+  font-size: 95%;
+}
+.nav {
+  padding: 0;
+}
+.nav ul {
+  padding: 0;
+}
+.nav ul {
+  display: inline;
+  padding: 0;
+  column-count: 6;
+  }
+.tur {
+  display: none;
+}
+nav div.login {
+  position: absolute;
+  top: 5px;
+ right: 15px;
+ }
+.nav ul li {
+  padding-left: 0;
+}
+.first-part {
+  padding: auto;
+  justify-content: flex-start;
+}
+div.image {
+  padding: 0;
+}
+.content button {
+  padding: auto;
+  font-size: 80%;
+}
+.content {
+  padding-left:30px;
+}
+.content p {
+  font-size: 85%;
+}
+div.articles {
+  padding: 10px;
+}
+.logo {
+  display: none;
+}
+.buttons {
+  font-size: 85%;
+}
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+  .nav ul {
+    display: inline;
+    padding: 0;
+    column-count: 4;
+ }
+ div.login {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+nav ul li {
+  padding-left: 0;
+}
+}
+@media screen and (min-width:1200px) and (max-width:1500px) {
+div.login {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+}
 body {
   font-family: sans-serif;
 }
@@ -13,6 +141,14 @@ nav {
   position: absolute;
   right: 5cm;
 }
+ul {
+ display: flex;
+ justify-content: flex-start;
+}
+nav ul li {
+  list-style: none;
+  padding-left: 65px;
+}
 .title1 {
   display: flex;
   justify-content: center;
@@ -23,10 +159,14 @@ nav {
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
+  padding-left: 90px;
+  padding-right: 120px;
+  height: 100%;
+
 }
 .image {
-  padding: 0 120px 0 100px;
+  padding-right: 250px;
 }
 .content {
   display: flex;
